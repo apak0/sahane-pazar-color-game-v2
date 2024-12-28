@@ -6,7 +6,7 @@ interface LivesProps {
 }
 
 export const Lives: React.FC<LivesProps> = ({ lives }) => (
-  <div className="fixed top-8 left-8 flex gap-2">
+  <div className="flex justify-center items-center  top-8 left-8 gap-2 my-10">
     {Array.from({ length: 3 }).map((_, index) => (
       <Heart
         key={index}
