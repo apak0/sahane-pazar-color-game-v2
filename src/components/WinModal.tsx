@@ -41,7 +41,7 @@ export const WinModal: React.FC<WinModalProps> = ({
           </h2>
           
           <p className="text-lg text-gray-600 mb-4 ">
-            You've mastered the Mystery Box Challenge!
+            You've mastered the Sahane Pazar Box Game
           </p>
           
           <p className="text-xl font-semibold mb-8 ">

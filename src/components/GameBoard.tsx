@@ -24,7 +24,7 @@ export const GameBoard: React.FC = () => {
     <div className="h-screen flex flex-col justify-center">
       <div className="title flex items-center justify-center">
         <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-500 pb-4">
-          Mystery Box Challenge
+          Sahane Pazar Box Game
         </h1>
       </div>
       <div className="flex  justify-center items-center ">
