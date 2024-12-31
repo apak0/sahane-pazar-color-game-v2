@@ -28,27 +28,27 @@ export const WinModal: React.FC<WinModalProps> = ({
         <div className="text-center">
           <div className="relative mb-6">
             <div className="absolute -left-4 top-0">
-              <Star className="w-8 h-8 text-yellow-400 animate-win-star-left" fill="currentColor" />
+              <Star className="w-8 h-8 text-yellow-400 " fill="currentColor" />
             </div>
-            <Trophy className="w-20 h-20 text-yellow-400 mx-auto animate-win-trophy" />
+            <Trophy className="w-20 h-20 text-yellow-400 mx-auto " />
             <div className="absolute -right-4 top-0">
-              <Award className="w-8 h-8 text-yellow-400 animate-win-star-right" fill="currentColor" />
+              <Award className="w-8 h-8 text-yellow-400 " fill="currentColor" />
             </div>
           </div>
           
-          <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-4 animate-win-text">
+          <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 pb-2 ">
             Congratulations!
           </h2>
           
-          <p className="text-lg text-gray-600 mb-4 animate-win-text-delay">
+          <p className="text-lg text-gray-600 mb-4 ">
             You've mastered the Mystery Box Challenge!
           </p>
           
-          <p className="text-xl font-semibold mb-8 animate-win-text-delay">
+          <p className="text-xl font-semibold mb-8 ">
             Final Score: <span className="text-yellow-500">{score}</span>
           </p>
           
-          <div className="animate-win-buttons">
+          <div className="">
             <Button onClick={onNewGame}>
               Play Again
             </Button>
